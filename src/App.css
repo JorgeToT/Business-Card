@@ -1,38 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+header {
+  margin: 44px auto 0px auto;
+}
+
+header img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 399px;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
   color: white;
+  margin: 21px 0 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+main h3 {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+  margin: 6.19px 0 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main h4 {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #f5f5f5;
+  margin: 8.81px 0 0 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0 0 0;
+}
+.buttons button {
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+
+.email {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+
+.linkedln {
+  background: #5093e2;
+  color: #ffffff;
+  border: 0;
+}
+
+main svg {
+  width: 16px;
+  height: 16px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.info {
+  margin: 33px 35px 0 35px;
+}
+
+.info h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+  margin: 5px 0 14px 0;
+}
+
+footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 19px 50px 20px 50px;
+}
+
+footer svg {
+  width: 25px;
+  height: 25px;
 }
